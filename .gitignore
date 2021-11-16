@@ -2,10 +2,15 @@
 
 # dependencies
 /node_modules
-/package-lock.json
+/client/node_modules
+/client/.pnp
+/client.pnp.js
+
+# testing
+/client/coverage
 
 # production
-/build
+/client/build
 
 # misc
 .DS_Store
@@ -13,5 +18,12 @@
 .env.development.local
 .env.test.local
 .env.production.local
+/client/.DS_Store
+/client/.env.local
+/client/.env.development.local
+/client/.env.test.local
+/client/.env.production.local
 
-npm-debug.log*
+/client/npm-debug.log*
+/client/yarn-debug.log*
+/client/yarn-error.log*
